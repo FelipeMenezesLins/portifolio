@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* Estilo global */
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --cor1:#202022;
+    --cor2:#878787;
+    --cor3:#CACACA;
+    --cor4:#00BBC9;
+    --cor5:#00747C;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container padrão */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Cabeçalho */
+#cabecalho {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77ab59 3px solid;
+}
+
+#cabecalho h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#cabecalho p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#cabecalho nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cabecalho nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#cabecalho nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#cabecalho nav ul li a:hover {
+    color: #77ab59;
+}
+
+/* Seções */
+.secao {
+    padding: 20px 0;
+}
+
+.secao h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Sobre Mim */
+#sobre-mim p {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Projetos */
+#projetos .projetos-galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#projetos .projeto {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#projetos .projeto h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#projetos .projeto p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #666;
+}
+
+#projetos .projeto a {
+    text-decoration: none;
+    color: #77ab59;
+    font-weight: bold;
+}
+
+#projetos .projeto a:hover {
+    color: #333;
+}
+
+/* Contato */
+#contato p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contato ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#contato ul li a {
+    color: #77ab59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato ul li a:hover {
+    color: #333;
+}
+
+/* Rodapé */
+#rodape {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#rodape p {
+    margin: 0;
+}
