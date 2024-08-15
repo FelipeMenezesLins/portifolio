@@ -28,7 +28,7 @@ body {
 .container {
     width: 80%;
     margin: auto;
-  
+    position: relative;
 }
 
 .container img {
@@ -37,6 +37,7 @@ body {
     display:block;
     margin:10px auto;
     box-shadow:1px 1px 3px rgba(0, 0, 0, 0.168);
+    cursor:pointer;
 }
 
 section#projetos {
@@ -114,6 +115,33 @@ menu ul li a:hover {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
+}
+
+/*Foto em tela cheia*/ 
+div#janela {
+    display:none;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+img#telacheia {
+    width:70%;
+}
+
+span#close {
+    position: absolute;
+    color:white;
+    font-size:36px;
+    top:20px;
+    right:20px;
+    cursor:pointer;
 }
 
 /* Projetos */
@@ -232,6 +260,11 @@ menu ul li a:hover {
         width:200px;
     }
 
+    
+    img#telacheia {
+        width:50%;
+    }
+
     #projetos .projetos-galeria {
         display:flex;
         flex-wrap: nowrap;
@@ -319,6 +352,11 @@ menu ul li a:hover {
 
     .container img {
         width:200px;
+    }
+
+    
+    img#telacheia {
+        width:40%;
     }
 
     /*Projetos*/
@@ -437,6 +475,11 @@ menu ul li a:hover {
     .container img {
         width:200px;
     }
+
+    img#telacheia {
+        width:30%;
+    }
+
 
     /*Projetos*/
 
