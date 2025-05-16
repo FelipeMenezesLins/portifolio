@@ -72,13 +72,28 @@ section#projetos {
 }
 
 menu {
-    display:none;
+    height:100%;
     background-color: #202022;
-    width:150px;
-    border-radius:5px;
-    margin:5px 5px;
+    width:300px;
     padding:10px;
     box-shadow:1px 1px 3px rgba(0, 0, 0, 0.176);
+    position:fixed;
+    top:0;
+    z-index:1000;
+    opacity:0;
+    transform:translateX(-100%);
+    font-size:1.2em;
+}
+
+div#menuanimation{
+    width:100%;
+    height:100%;
+    position: fixed;
+    opacity:0;
+    top:0;
+    z-index:1000;
+    transform:translateX(-100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 menu ul {

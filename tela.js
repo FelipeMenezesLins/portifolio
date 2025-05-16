@@ -5,7 +5,7 @@ img.addEventListener('click', ()=> {
     janela.style.display = 'flex'
 })
 
-x.addEventListener('click', ()=> {
+janela.addEventListener('click', ()=> {
     janela.style.display = 'none'
 }) 
 
