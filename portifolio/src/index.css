@@ -1,0 +1,57 @@
+#modulos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#bannersobre{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fontebanner{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bannermain{
+    background-image: url('imagens/fundo-perfil.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#texth3{
+    color: rgb(132, 2, 254);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.65);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#texth4{
+    color:white;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.447);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width:375px) and (max-width:500px) {
+    
+    #menumain a {
+        font-size:.7em;
+    }
+
+    #menumain span {
+        font-size:17px;
+    }
+}
+
+#menumain a {
+    margin:3px;
+}
+
+@media screen and (min-width:730px){
+    #menumain span{
+    font-size: 25px;
+    display:block;
+    width:100%;
+    text-align: center;
+}
+}
